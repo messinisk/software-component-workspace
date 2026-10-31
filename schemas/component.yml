@@ -1,0 +1,19 @@
+apiVersion: scw/v0.1
+
+kind: Component
+
+metadata:
+  name: cli
+  version: 1.0.0
+
+spec:
+
+  type: user-interface
+
+  provides:
+
+    - command_line
+
+  depends_on:
+
+    - business_rules

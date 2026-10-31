@@ -1,0 +1,25 @@
+apiVersion: scw/v0.1
+
+kind: Workspace
+
+metadata:
+  name: linux-update
+  version: 0.1.0
+
+spec:
+
+  components:
+
+    - core
+    - cli
+    - gui
+
+  interfaces:
+
+    - business_rules
+    - command_line
+
+  policies:
+
+    - core-boundaries
+    - interface-only-dependencies

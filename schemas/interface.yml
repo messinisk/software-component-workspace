@@ -1,0 +1,7 @@
+apiVersion: scw/v0.1
+
+kind: Interface
+
+metadata:
+  name: business_rules
+  version: 1.0.0

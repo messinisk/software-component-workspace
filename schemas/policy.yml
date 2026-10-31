@@ -1,0 +1,10 @@
+apiVersion: scw/v0.1
+
+kind: Policy
+
+metadata:
+  name: interface-only-dependencies
+
+spec:
+
+  rule: dependency.target.must_be_interface

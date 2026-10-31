@@ -1,0 +1,16 @@
+[project]
+name = "scw"
+version = "0.1.0"
+
+dependencies = [
+    "pyyaml"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
