@@ -1,0 +1,11 @@
+# cli.yml
+
+kind: Component
+
+metadata:
+  name: cli
+
+spec:
+
+  depends_on:
+    - business_rules

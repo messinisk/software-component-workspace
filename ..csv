@@ -1,0 +1,13 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOC),"Project has 10.5 weighted classes:
+- Regular classes: 10
+- Abstract/Interface classes: 1
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",/home/dev/software-component-workspace/src,Project,,Medium
+Structural,Too Many Branches,Method 'build' has 5 branches with max nesting of 5,src/scw/graph/builder.py,scw.graph.builder.GraphBuilder,7,Medium
+Structural,Too Many Branches,Method '_dfs' has 5 branches with max nesting of 4,src/scw/graph/cycle_detector.py,scw.graph.cycle_detector.CycleDetector,25,Medium
+Code,Feature Envy,Method 'main' makes 5 calls to 'sys' but only 0 local calls in src/scw/cli.py,src/scw/cli.py,main,6,medium
+Code,Feature Envy,Method 'build' makes 5 calls to 'component' but only 0 local calls in src/scw/graph/builder.py,src/scw/graph/builder.py,build,7,medium
+Code,Potential Shotgun Surgery,Method 'ValidationMessage' called in 8 different contexts across 8 locations in src/scw/validator/rules.py,src/scw/validator/rules.py,ValidationMessage,18,high
+Architectural,Potential Improper API Usage,"Module 'scw.validator.rules' has repetitive API calls: get(5x), append(8x)",src/scw/validator/rules.py,scw.validator.rules,,medium

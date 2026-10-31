@@ -8,30 +8,29 @@ v0.1.0
 - [x] Component manifest
 - [x] Interface manifest
 - [x] Policy manifest
-- [x] SCW-001
-- [x] SCW-002
-- [x] SCW-003
 
-[x] Unit tests
+- SCW-001 ✅
+- SCW-002 ✅
+- SCW-003 ✅
 
-- Define architecture model
-- Define component manifest
-- Define dependency model
-- Define interface model
-- Define version model
+- SCW-100 ✅
+- SCW-101 ✅
 
-## v0.2.0
+- SCW-200 ✅
+- SCW-201 ✅
+- SCW-202 ✅
+- SCW-300 ✅
+- SCW-301 ✅
 
-- Validator
+- Tests     ✅ 18 passed
+- Ruff      ✅
+- MyPy      ✅
+### TODO:
+Connect Workspace model to loader.
 
-## v0.3.0
 
-- Dependency Graph
+v0.2.0
+--------
 
-## v0.4.0
-
-- Workspace Engine
-
-## v1.0.0
-
-- Stable Specification
+v0.3.0
+--------

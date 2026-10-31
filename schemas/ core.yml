@@ -1,0 +1,11 @@
+# core.yml
+
+kind: Component
+
+metadata:
+  name: core
+
+spec:
+
+  provides:
+    - business_rules

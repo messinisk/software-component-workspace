@@ -1,3 +1,8 @@
+from scw.models.workspace_context import WorkspaceContext
+from scw.models.component import Component
+from scw.models.interface import Interface
+
+
 from scw.validator.rules import validate_scw_003
 
 

@@ -14,5 +14,7 @@ pythonpath = ["src"]
 dev = [
     "pytest",
     "mypy",
-    "types-PyYAML"
+    "types-PyYAML",
+    "radon",
+    "bandit"
 ]

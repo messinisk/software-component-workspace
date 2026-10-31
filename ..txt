@@ -1,0 +1,39 @@
+Code Quality Analysis Report
+============================
+
+Structural Smells:
+-------------------
+- High Number of Classes (NOC): Project has 10.5 weighted classes:
+- Regular classes: 10
+- Abstract/Interface classes: 1
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7
+  File: /home/dev/software-component-workspace/src
+  Severity: Medium
+
+- Too Many Branches: Method 'build' has 5 branches with max nesting of 5
+  Line: 7
+  File: src/scw/graph/builder.py
+  Severity: Medium
+
+- Too Many Branches: Method '_dfs' has 5 branches with max nesting of 4
+  Line: 25
+  File: src/scw/graph/cycle_detector.py
+  Severity: Medium
+
+Code Smells:
+------------
+- Feature Envy: Method 'main' makes 5 calls to 'sys' but only 0 local calls in src/scw/cli.py
+- Feature Envy: Method 'build' makes 5 calls to 'component' but only 0 local calls in src/scw/graph/builder.py
+- Potential Shotgun Surgery: Method 'ValidationMessage' called in 8 different contexts across 8 locations in src/scw/validator/rules.py
+
+Architectural Smells:
+---------------------
+- Potential Improper API Usage: Module 'scw.validator.rules' has repetitive API calls: get(5x), append(8x)
+
+Summary:
+--------
+Total Structural Smells: 3
+Total Code Smells: 3
+Total Architectural Smells: 1

@@ -1,0 +1,6 @@
+# business_rules.yml
+
+kind: Interface
+
+metadata:
+  name: business_rules
