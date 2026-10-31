@@ -12,5 +12,7 @@ pythonpath = ["src"]
 
 [project.optional-dependencies]
 dev = [
-    "pytest"
+    "pytest",
+    "mypy",
+    "types-PyYAML"
 ]

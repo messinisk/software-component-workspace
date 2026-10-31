@@ -2,12 +2,12 @@ from pathlib import Path
 
 import yaml
 
+from .result import ValidationResult
 from .rules import (
     validate_scw_001,
     validate_scw_002,
     validate_scw_003,
 )
-from .result import ValidationResult
 
 
 class Validator:

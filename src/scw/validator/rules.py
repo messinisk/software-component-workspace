@@ -2,7 +2,7 @@ from .result import ValidationMessage
 
 
 def validate_scw_001(document: dict) -> list[ValidationMessage]:
-    messages = []
+    messages: list[ValidationMessage] = []
 
     required = [
         "apiVersion",
@@ -24,7 +24,7 @@ def validate_scw_001(document: dict) -> list[ValidationMessage]:
 
 
 def validate_scw_002(document: dict) -> list[ValidationMessage]:
-    messages = []
+    messages: list[ValidationMessage] = []
 
     metadata = document.get("metadata", {})
 
@@ -41,7 +41,7 @@ def validate_scw_002(document: dict) -> list[ValidationMessage]:
 
 
 def validate_scw_003(document: dict) -> list[ValidationMessage]:
-    messages = []
+    messages: list[ValidationMessage] = []
 
     if document.get("kind") != "Component":
         return messages
